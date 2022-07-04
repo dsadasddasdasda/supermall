@@ -7,12 +7,20 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "axios": "^0.26.0",
+    "better-scroll": "^2.4.2",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "fastclick": "^1.0.6",
+    "moment": "^2.29.3",
+    "vue": "^2.6.11",
+    "vue-lazyload": "^3.0.0-rc.2",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.6.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.15",
     "@vue/cli-service": "~4.5.15",
+    "postcss-px-to-viewport": "^1.1.1",
     "vue-template-compiler": "^2.6.11"
   }
 }
